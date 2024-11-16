@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.box {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.05);
+}
+
+#back-button {
+    margin-top: 20px;
+}
