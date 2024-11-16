@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="page-title">Main Menu</h1>
+        <div id="content">
+            <!-- Main Menu -->
+            <div id="menu">
+                <a href="#" class="box" onclick="loadCategory('hacking-tools')">Hacking Tools</a>
+                <a href="#" class="box" onclick="loadCategory('virus-malware')">Virus & Malware</a>
+                <a href="#" class="box" onclick="loadCategory('financial-tools')">Financial Tools</a>
+                <a href="#" class="box" onclick="loadCategory('social-media-messaging')">Social Media & Messaging</a>
+                <a href="#" class="box" onclick="loadCategory('multimedia-entertainment')">Multimedia & Entertainment</a>
+                <a href="#" class="box" onclick="loadCategory('personal-security')">Personal & Security</a>
+                <a href="#" class="box" onclick="loadCategory('miscellaneous')">Miscellaneous</a>
+            </div>
+        </div>
+        <a href="#" id="back-button" class="box" onclick="goBack()" style="display: none;">Back to Menu</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
