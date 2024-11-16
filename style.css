@@ -1,43 +1,31 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: url('images/background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: #fff;
+    background-image: url('https://i.ibb.co/SRBXwM0/IMG-20241115-WA0160.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    margin: 0; /* Removes default body margins */
+    font-family: Arial, sans-serif; /* Sets the font for the page */
 }
 
 .container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-}
-
-h1 {
-    margin-bottom: 20px;
-    font-size: 2.5em;
+    flex-wrap: wrap; /* Allows wrapping of links on smaller screens */
+    justify-content: center; /* Centers the links */
+    gap: 20px; /* Adds space between links */
+    padding: 20px; /* Adds padding around the container */
 }
 
 .box {
-    display: inline-block;
-    margin: 10px;
-    padding: 15px 30px;
-    background-color: rgba(0, 0, 0, 0.6);
-    border: 2px solid #fff;
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
-    transition: all 0.3s ease;
+    text-decoration: none; /* Removes underline from links */
+    color: white; /* Sets link text color to white */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    padding: 15px 25px; /* Adds padding inside each box */
+    border-radius: 10px; /* Rounds the corners of each box */
+    font-size: 18px; /* Sets font size */
+    transition: 0.3s; /* Adds smooth transition effect for hover */
 }
 
 .box:hover {
-    background-color: #fff;
-    color: #000;
-    transform: scale(1.05);
-}
-
-#back-button {
-    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Lightens background on hover */
+    color: black; /* Changes text color on hover */
 }
